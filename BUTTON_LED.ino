@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   int buttonState = digitalRead(button);
-  if (buttonState == 0) {
+  if (buttonState == 0) {                 //Reads 0 when pressed due to pullup
     digitalWrite(led, HIGH);
   } else {
     digitalWrite(led, LOW);
