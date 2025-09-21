@@ -1,4 +1,4 @@
-// turn on and off led with same button with debounce delay
+// turn on and off led with same button using debounce delay
 
 #define led 2
 #define button 4
