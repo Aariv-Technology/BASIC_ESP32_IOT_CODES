@@ -1,3 +1,5 @@
+Measuring distance in cm using ultrasonic sensor HCSR04
+
 #define trig 26
 #define echo 18
 
