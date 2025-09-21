@@ -24,9 +24,9 @@ void loop() {
     Serial.print("Voltage Value = ");
     Serial.println(voltage);
 
-    delay(100);
+    delay(200);
   }
-  delay(3000);
+
   for(int i=255; i>=0; i--)
   {
     dacWrite(dac,i);
@@ -39,7 +39,7 @@ void loop() {
     Serial.print("Voltage Value = ");
     Serial.println(voltage);
 
-    delay(100);
+    delay(200);
   }
 
 }
