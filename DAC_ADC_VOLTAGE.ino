@@ -1,4 +1,6 @@
-#define dac 26
+//Creating analog output using dac pin and measuring its adc value and calculating its equivalent voltage
+
+#define dac 26    //ONLY GPIO25 OR GPIO26
 #define adc 34
 
 void setup() {
