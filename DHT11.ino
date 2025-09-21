@@ -1,3 +1,5 @@
+// Measuring ambient temperature and humidity
+
 #include "DHT.h"
 
 #define DHTPIN 2
