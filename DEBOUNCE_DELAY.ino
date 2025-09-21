@@ -25,7 +25,7 @@ void loop() {
   }
   else if(buttonState == 0 && currentState == 1)
   {
-    digitalWrite(led, HIGH);
+    digitalWrite(led, LOW);
     currentState = 0;
   }
 
