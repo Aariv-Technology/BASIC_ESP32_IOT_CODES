@@ -6,16 +6,16 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(pwmLed, OUTPUT);
   analogWriteFrequency(pwmLed, 1000);
-  analogWriteResolution(pwmLed, 12);
+  analogWriteResolution(pwmLed, 8);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for (int i = 0; i <= 4095; i++) {
+  for (int i = 0; i <= 255; i++) {
     analogWrite(pwmLed, i);
     delay(30);
   }
-  for (int i = 4095; i >= 0; i--) {
+  for (int i = 255; i >= 0; i--) {
     analogWrite(pwmLed, i);
     delay(30);
   }
