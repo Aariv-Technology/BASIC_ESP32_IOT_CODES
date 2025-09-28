@@ -1,10 +1,12 @@
+//WIFI Access point
+
 #include <WiFi.h>
 
 void setup() {
   Serial.begin(115200);
 
   // Start Access Point
-  WiFi.softAP("Abhi", "12345678");
+  WiFi.softAP("ESP32_AP", "12345678");
   Serial.print("AP started, IP: ");
   Serial.println(WiFi.softAPIP());
 }
